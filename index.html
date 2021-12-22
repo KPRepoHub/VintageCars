@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Cars for Hire</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+
+    <!-- header -->
+
+    <header class="container header-main">
+        <div class="logo-section">
+            <a href="#"><img class="logo" src="images/logo.jpg" alt="logo image" ></a>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container flex">
+                <ul>
+                    
+                    <li><a href="#CarsSectionID">Cars</a></li>
+                    <li>|</li>
+                    <li><a href="#EnquirySectionID">Enquiries</a></li>
+                    <li>|</li>
+                    <li><a href="#ContactSectionID">Contact</a></li>
+                                      
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <h2 class="headline">
+        Vintage Cars for Hire
+    </h2>
+
+
+    <!-- cars section -->
+    <section>
+            <div class="container cars" id="CarsSectionID">
+
+        
+                    <div class="center">
+                        <h3>Car Listings</h3>
+                    </div>
+                    <div class="cars-boxes">
+                        <div class="car-container">
+                            <div class="car-image">
+                                <img src="images/car1.jpg" alt="car number one for hire">
+                            </div>
+                            <div class="car-text">
+                        
+                                <p>Classic Mini</p>
+                            </div>
+                        </div>
+                        <div class="car-container">
+                            <div class="car-image">
+                                <img src="images/car2.jpg" alt="car number two for rent">
+                            </div>
+                            <div class="car-text">                      
+                                <p>Bumble Bee</p>
+                            </div>
+                        </div>
+                        <div class="car-container">
+                            <div class="car-image">
+                                <img src="images/car3.jpg" alt="car number three for hire">
+                            </div>
+                            <div class="car-text">                
+                                <p>Snow White</p>
+                            </div>
+                        </div>
+                        <div class="car-container">
+                            <div class="car-image">
+                                <img src="images/car4.jpg" alt="car number four for hire">
+                            </div>
+                            <div class="car-text">                   
+                                <p>Pink Lady</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+            
+
+
+            </div>
+    </section>
+
+
+    <!-- enquiry section -->
+    <section>
+        <div class="formBack container Enquiry " id="EnquirySectionID">
+            <form  class="bg-success">
+                <p> <h3> Enquire about a car</h3> </p>
+
+                <div class="form-group row">
+                    <label for="fullName" class="col-sm-2 col-form-label">Full Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="fullName" required>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="emailAddress" class="col-sm-2 col-form-label">Email address</label>
+                    <div class="col-sm-10">
+                         <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                        <label for="carID" class="col-sm-2 col-form-label">Choose a car</label>
+                        
+                            <div class="col-sm-10">
+                                <select class="custom-select" id="carID" required>                                    
+                                    <option selected>Select a car</option>
+                                    <option value="2">Classic Mini</option>
+                                    <option value="3">Bumble Bee</option>
+                                    <option value="3">Snow White</option>
+                                    <option value="4">Pink Lady</option>
+                            </select>
+                        </div>
+                </div>
+               
+                <!-- <div class="form-group">
+                    <label for="exampleFormControlSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div> -->
+                <div class="form-group row">                  
+                    <label for="commentsArea" class="col-sm-2 col-form-label">Comments</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="commentsArea" required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>                        
+                    </div>
+                </div>
+
+            </form>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Contact section -->    
+    </section>
+        <div class="Contact" id="ContactSectionID">
+
+                <!-- car agent details -->
+
+                        <section class="container">
+                            <div>
+                                <div>
+                                    <h2>Contact Vintage Cars For Hire</h2>
+
+                                    <h5>Address:</h5>
+                                    <p>1 Avenue Sydney NSW 2000</p>
+                                    <h5>Phone:</h5>
+                                    <p>0413 123 456</p>
+                                    <h5>Email:</h5>
+                                    <p>contactus@vintagecar.com.au</p>
+                        
+                                </div>
+                        
+                                <div class="contact-map">
+                        
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d400819.01066902507!2d144.95540597600979!3d-38.29343350159234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad43583695a52e7%3A0x1cfca9b916403c28!2sSorrento%20by%20the%20Sea!5e0!3m2!1sen!2sau!4v1633348322299!5m2!1sen!2sau"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        
+                        
+                                </div>
+                            </div>
+                        
+                        
+                        
+                        </section>
+
+
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <footer class="footer-main">
+        <div class="copyRight">           
+            <p> <strong> Vintage Cars for Hire Copyright &copy; 2021 </strong> </p>
+        </div>
+           
+
+    </footer>
+
+</body>
+
+
+
+
+</html>

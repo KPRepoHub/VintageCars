@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 16px;
+}
+
+
+.container {
+max-width: 1100px;
+margin: 0 auto;
+overflow: auto;
+padding: 0 1rem;
+
+}
+
+/* nav bar */
+.header-main  
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* background-color: blue;
+    color: white; */
+    
+}
+
+.navbar ul {
+    display: flex;
+    /* justify-content:flex-end; */
+    justify-content:space-evenly;
+    list-style-type: none;
+    width: 60%;
+}
+
+.navbar ul li {
+
+display: inline-block;
+padding: 0.5rem 1rem;
+
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.img {
+    width:100%;
+
+}
+
+p {
+    margin: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.logo-section {
+
+    width:40%;
+}
+
+.logo  {
+    
+    height: 3rem;
+    width: auto;
+}
+
+.headline {
+    text-align: center;  
+}
+
+
+
+
+.cars {
+    background-color: #efefef;
+    max-width: 100%;
+    padding: 2rem 4.375rem;    
+}
+
+
+
+.cars-boxes {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.car-container {
+    display: block;
+    width: 24%;
+    background-color: #fff;
+    margin-bottom: 1rem;
+
+}
+
+.car-image {
+    max-width: 100%;
+    padding-bottom: 0.5rem;
+    height: 100%;
+}
+
+.car-image img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.car-text {
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+
+
+.car-text p {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.Enquiry h3 {
+    text-align: center;    
+}
+
+.copyRight {
+    text-align: center;
+}
